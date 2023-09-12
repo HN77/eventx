@@ -1,0 +1,6 @@
+.home {
+    display: grid;
+    grid-template-rows: 5rem 1fr auto;
+    grid-template-columns: 6vw repeat(8, minmax(1rem, 1fr)) 6vw;
+    overflow-x: hidden;
+}

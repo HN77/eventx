@@ -1,0 +1,108 @@
+.modal {
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    &__form {
+        width: 30%;
+        padding: 3rem;
+        background-color: #fff;
+        border-radius: 0.3rem;
+        -webkit-border-radius: 0.3rem;
+        -moz-border-radius: 0.3rem;
+        -ms-border-radius: 0.3rem;
+        -o-border-radius: 0.3rem;
+        position: relative;
+        font-family: "Lato", sans-serif;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        font-size: 1.3rem;
+        z-index: 999;
+        color: #000;
+    }
+
+    &__form-group {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            color: #000;
+            font-size: 0.7rem;
+            margin: 0.7rem 0 0.3rem 0;
+        }
+    }
+    &__input {
+        font-size: 0.6rem;
+        padding: 0.5rem;
+        box-sizing: border-box;
+        border: 1px solid #000;
+        border-radius: 0.2rem;
+        -webkit-border-radius: 0.2rem;
+        -moz-border-radius: 0.2rem;
+        -ms-border-radius: 0.2rem;
+        -o-border-radius: 0.2rem;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__input-image {
+        font-size: 0.6rem;
+        padding: 0.33rem;
+        box-sizing: border-box;
+        border: 1px solid #000;
+        border-radius: 0.2rem;
+        -webkit-border-radius: 0.2rem;
+        -moz-border-radius: 0.2rem;
+        -ms-border-radius: 0.2rem;
+        -o-border-radius: 0.2rem;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__close-icon {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+        color: #000;
+    }
+
+    &__btn {
+        color: #fff;
+        padding: 0.4rem 1rem;
+        margin-top: 1rem;
+        border: none;
+        cursor: pointer;
+        background-color: #e7b10a;
+        border-radius: 0.2rem;
+        -webkit-border-radius: 0.2rem;
+        -moz-border-radius: 0.2rem;
+        -ms-border-radius: 0.2rem;
+        -o-border-radius: 0.2rem;
+    }
+
+    &__error {
+        color: #d71313;
+        font-size: 0.7rem;
+        padding: 0.2rem 0;
+    }
+}
+.delete {
+    color: #d71313;
+}

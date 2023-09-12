@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+@import "../js/components/Carousel/carousel";
+@import "../js/components/Events/events";
+@import "../js/components/Footer/footer";
+@import "../js/components/Navbar/navbar";
+@import "../js/components/Form/form";
+@import "../js/components/EventCard//eventCard";
+@import "../js/components/Search/search";
+@import "../js/pages/Home/home";
+@import "../js/pages/Event/event";
+@import "../js/pages/Login/login";
+@import "../js/pages/Register/register";
